@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+.wrapper-item {
+	position:relative;
+	background-color:#5F7522;
+	
+}
+
+.wrapper-item h1 {
+   color: #333333;
+   padding: 50px 10px 20px 10px;
+   background-color: #ffffff;
+   background-position: right bottom;
+   background-repeat: no-repeat;
+   text-shadow: 0 0 0 #ffffff;
+   font-weight: normal;
+}
+
+.wrapper-item h1.tree {
+   background-image: url(@res:img:theme/baobab-tree.png;);
+}
+
+.wrapper-item h1.seed {
+   background-image: url(@res:img:theme/baobab-seed.png;);
+}
+
+.wrapper-item h1 span {
+   background-color: rgba(255,255,255,0.5);
+   border-radius: 0px 5px 5px 0px;
+}

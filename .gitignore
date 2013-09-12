@@ -1,0 +1,7 @@
+inc/podio.config.inc.php
+tmp/
+tmp/*
+.settings
+.settings/*
+.project
+.buildpath

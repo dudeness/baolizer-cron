@@ -1,0 +1,101 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+html, body {width: 100%;}
+
+html body.body {
+   background-color: #5F7522;
+   margin: 0 auto;
+   padding: 0px;
+   font-family: Verdana, Sans-Serif;
+   font-size: 1em;
+   color: #ffffff;
+   text-shadow: 0 1px 0 #333333;
+
+}
+
+
+html body.body div.ui-page {
+   background: none;
+   color: #ffffff;
+   text-shadow: 0 1px 0 #333333;
+
+}
+
+#page {
+   font-size: 15px;
+
+}
+
+h1 {
+   color: #333333;
+   padding: 50px 10px 20px 10px;
+   background-color: #ffffff;
+   background-position: right bottom;
+   background-repeat: no-repeat;
+   text-shadow: 0 0 0 #ffffff;
+   font-weight: normal;
+}
+
+h1.tree {
+   background-image: url(/img/theme/baobab-tree.png);
+}
+
+h1.seed {
+   background-image: url(/img/theme/baobab-seed.png);
+}
+
+h1 span {
+   background-color: rgba(255,255,255,0.5);
+   border-radius: 0px 5px 5px 0px;
+}
+
+table {
+   width: 100%;
+   border-collapse: seperate;
+}
+
+table td {
+   text-align: center;
+}
+
+table td:first-child {
+}
+
+a.action {
+   display: block;
+   background-color: rgba(255,255,255,0.2);
+}
+
+a.action:hover,
+a.action:active,
+a.action.active {
+   background-color: rgba(255,255,255,0.4);
+}
+
+p {
+   margin: 10px 0px;
+}
+
+.block {
+   background-color: rgba(255,255,255,0.4);
+   padding: 10px;
+   margin: 0px 2px;
+}
+
+.block  p:first-child{
+   margin-top: 0px;
+}
+
+.block  p:last-child{
+   margin-bottom: 0px;
+}
+
+.view {
+   padding: 10px;
+}
+
+.view-spot .streetview {
+   height: 100px;
+}
